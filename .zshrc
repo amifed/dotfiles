@@ -125,25 +125,7 @@ eval "$(starship init zsh)"
 # exa to ls
 alias ls="exa"
 
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/Users/jinyang/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/Users/jinyang/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/Users/jinyang/miniconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/Users/jinyang/miniconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-
 # alias
-alias ca="conda activate"
-alias cda="conda deactivate"
-alias py="python"
 alias pn="pnpm"
 alias cl="clear"
 
