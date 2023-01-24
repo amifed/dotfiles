@@ -125,8 +125,8 @@ eval "$(starship init zsh)"
 alias ls="exa"
 
 # alias
+alias py="python"
 alias pn="pnpm"
-alias cl="clear"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
